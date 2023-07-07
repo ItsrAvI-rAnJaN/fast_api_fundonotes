@@ -10,3 +10,7 @@ class UserValidator(BaseModel):
     is_superuser: bool
     location: str
     phone: int
+
+class UserLogin(BaseModel):
+    username: str
+    password: str
