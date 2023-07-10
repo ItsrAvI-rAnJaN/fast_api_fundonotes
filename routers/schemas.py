@@ -11,6 +11,10 @@ class UserValidator(BaseModel):
     location: str
     phone: int
 
+
 class UserLogin(BaseModel):
     username: str
     password: str
+
+    class Config:
+        frozen = True
