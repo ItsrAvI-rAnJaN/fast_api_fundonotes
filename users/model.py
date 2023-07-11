@@ -1,7 +1,12 @@
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, BigInteger, create_engine
 from sqlalchemy.orm import relationship, declarative_base, sessionmaker
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 Base = declarative_base()
-engine = create_engine("postgresql+psycopg2://postgres:12345@localhost:5432/fundoo_notes_fastapi")
+engine =create_engine(os.environ.get("USER_DB"))
 Base.metadata.create_all(engine)
 session = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
@@ -26,5 +31,7 @@ class User(Base):
     email = Column(String, unique=True, index=True)
     password = Column(String)
     is_superuser = Column(Boolean, default=False)
+
+
 
 

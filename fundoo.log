@@ -1,0 +1,18 @@
+2023-07-10 16:01:30,622:users.py:ERROR:(lineno)d:name 'us' is not defined
+Traceback (most recent call last):
+  File "E:\BridgeLab\fast_api_FundooNotes\fast_api_fundonotes\users\users.py", line 15, in user_registration
+    data = data.dict()
+NameError: name 'us' is not defined
+2023-07-10 16:02:03,783:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:02:07,192:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:02:40,083:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:03:39,700:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:35:23,039:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:35:45,617:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:35:55,547:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:37:04,531:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:39:15,810:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:39:20,065:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:39:33,736:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-10 16:46:01,283:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2023-07-11 07:44:19,337:registry.py:DEBUG:(lineno)d:registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>

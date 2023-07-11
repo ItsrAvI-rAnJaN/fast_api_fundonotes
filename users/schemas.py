@@ -18,3 +18,5 @@ class UserLogin(BaseModel):
 
     class Config:
         frozen = True
+
+
